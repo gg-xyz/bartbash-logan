@@ -10415,7 +10415,7 @@
                 })]
             })]
         }),
-        We = n.p + "../static/media/something.jpg",
+        We = n.p + "../version1/static/media/something.jpg",
         Ve = () => (0, Ae.jsx)(Ae.Fragment, {
             children: (0, Ae.jsxs)("main", {
                 className: "main1",
