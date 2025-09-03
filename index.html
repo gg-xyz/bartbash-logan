@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Website Hub - Version Directory</title>
+    
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    
+    <style>
+        body {
+            background: #90c4e2 url(data:image/gif;base64,R0lGODlhAQBtAeYAAEaBo22kxHqw0FKNroC21XGpyXKpyVSOr4e821iStH2z0k6Iqmaev4O412CZun6001aQsnSqynGoyG+mxlqUtYa72mKbvGWdvlWPsViRs3Ssy1SNr3OqykaCpIm93Hmwz2Wev1aQsY/D4Y7C4HCnx0qEpkiCpIq/3Xyy0Y3B31uVtnetzYm+3IvA3n+11F+YuWmhwYG31kmDpWGau4i922qiwkyHqGOcvUuFp4W62WyjxIO52IzA30yHqXivznmvz2ujw12Wt4q+3VCLrI7D4VmUtGefv3WszIzB32ScvUiDpXiuzoS52IS62FyWtlyWt43C4E2HqW6lxYK31lCKrEqFp2ihwVGLrIu/3WegwGmiwmKbu06Jq1OOr02Hqmyjw02IqU6IqVmTtIzA3keCo1GMrXCox0+Kq0qFpkuEp1GLrUiCpYa72WmhwnmvzlyVt3ux0FWQsYW72V6XuGqjw3aszHatzEyFp0yGqHeuzWigwG6mxWigwYu/3lGKrJDE4iH5BAAAAAAALAAAAAABAG0BAAf/gACCAGSCHWSFJmQmjGtKSjKRJSVok2lVODh3mTZ4Np89PVFRYWALXlypqWdcVEN+Q1dUamUDtWW1XRsHvLwYv3EhIRDEEBkJyGLICWJFRWIU0dIq1CpOTm9PT0FBc91zL+Av4y8O5ucz6VsW7Ow370lJF/MXICAMRvlGWUZ6VnwwAmppU6MgHSBAvujQEaBhACkQ90icMIGERRJmJGgsYKCjAQ4gI2gYqeGIyTp2VqhckWfJEh8+3Pz48UGAADg44aDYyVOBzwdAgboY6oKAUaMxkk6Z0qBp0x07mDBp0iSHVTlsKmitgKBrVxpgabDwwKKsECEn0p7A0qeF2xZjH3jwQIIkhd0UUKCM2MuXCBERgAOL+EO4sOHDiBMfDgQAOw==) repeat-x;
+            color: #333;
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 9pt;
+            line-height: 11pt;
+            margin: 0;
+            text-align: center;
+            padding: 40px 0;
+        }
+        
+        .main-container {
+            background-color: #f0f8ff;
+            border: 1px solid #ccc;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin: 20px auto;
+            width: 60%;
+            max-width: 800px;
+            border-radius: 8px;
+            padding: 40px;
+        }
+        
+        h1 {
+            color: #2c5aa0;
+            font-size: 28pt;
+            font-weight: 700;
+            margin-bottom: 30px;
+            text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+        }
+        
+        .version-section {
+            background-color: #e6f3ff;
+            border: 1px solid #b3d9ff;
+            border-radius: 6px;
+            margin: 20px 0;
+            padding: 25px;
+            text-align: left;
+        }
+        
+        .version-title {
+            color: #2c5aa0;
+            font-size: 16pt;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        
+        .version-description {
+            color: #333;
+            font-size: 10pt;
+            line-height: 14pt;
+            margin-bottom: 20px;
+        }
+        
+        .version-link {
+            background: linear-gradient(180deg, #fff 0%, #f0f8ff 50%, #e6f3ff 100%);
+            border: 1px solid #7bb3d9;
+            border-radius: 4px;
+            box-shadow: inset 0 1px 0 #fff, 0 1px 2px rgba(0,0,0,0.1);
+            color: #2c5aa0;
+            text-decoration: none;
+            padding: 12px 24px;
+            font-weight: 600;
+            font-size: 11pt;
+            display: inline-block;
+            transition: all 0.2s ease;
+        }
+        
+        .version-link:hover {
+            background: linear-gradient(180deg, #f0f8ff 0%, #e6f3ff 50%, #d1ebff 100%);
+            box-shadow: inset 0 1px 0 #fff, 0 2px 4px rgba(0,0,0,0.15);
+            transform: translateY(-1px);
+        }
+        
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            color: #666;
+            font-size: 8pt;
+            border-top: 1px solid #ddd;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .main-container {
+                width: 95%;
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 20pt;
+            }
+            
+            .version-section {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <h1>Website Hub</h1>
+        <h2>all versions here are just archives of this site: https://bartbash.com/logan/</h2>
+        <h3>(do not type in index.html after that, it doesnt work.)</h3>
+        <div class="version-section">
+            <div class="version-title">Version 1</div>
+            <div class="version-description">
+                The original logan site. This was first found by us. This was found by listening to the numbers in this video: https://www.youtube.com/watch?v=tGNv1qjh-cc
+                The numbers corresponded to letters in the alphabet. Being
+                A = 1
+                B = 2
+                and so on.
+            </div>
+            <a href="version1/logan/" class="version-link">Visit Version 1</a>
+        </div>
+        
+        <!-- Future versions can be added here -->
+        
+        <footer>
+            <p>This website is not affiliated with Telestop officially. this is a fan archive, made by hazy and tem. contact us at realhazy on discord</p>
+        </footer>
+    </div>
+</body>
+</html>
