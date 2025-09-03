@@ -9901,7 +9901,7 @@
     const ze = n.p + "static/media/joel2.fa8e4dd54bdc219a8f27.png",
         Le = n.p + "static/media/bartheader.b035e7afe73b19c1912e.png",
         Oe = n.p + "static/media/demobutton.69b9b169cfb52860ed03.png",
-        Re = n.p + "../static/media/telestop.png";
+        Re = n.p + "../version1/static/media/telestop.png";
     var Ae = n(414);
     const De = () => {
             const [e, t] = (0, a.useState)("000"), [n, r] = (0, a.useState)(""), [l, o] = (0, a.useState)(!1);
