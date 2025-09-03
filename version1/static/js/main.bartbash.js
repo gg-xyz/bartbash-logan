@@ -10558,7 +10558,7 @@
                             path: "/creators",
                             element: (0, Ae.jsx)(qe, {})
                         }), (0, Ae.jsx)(ve, {
-                            path: "/logan",
+                            path: "/version1/logan",
                             element: (0, Ae.jsx)(Ve, {})
                         }), (0, Ae.jsx)(ve, {
                             path: "*",
