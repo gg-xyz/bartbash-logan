@@ -9901,7 +9901,7 @@
     const ze = n.p + "static/media/joel2.fa8e4dd54bdc219a8f27.png",
         Le = n.p + "static/media/bartheader.b035e7afe73b19c1912e.png",
         Oe = n.p + "static/media/demobutton.69b9b169cfb52860ed03.png",
-        Re = n.p + "static/media/telestop.9f118f85e3912a97d1af.png";
+        Re = n.p + "../static/media/telestop.png";
     var Ae = n(414);
     const De = () => {
             const [e, t] = (0, a.useState)("000"), [n, r] = (0, a.useState)(""), [l, o] = (0, a.useState)(!1);
@@ -10415,7 +10415,7 @@
                 })]
             })]
         }),
-        We = n.p + "static/media/something.784c2eff241f50041544.jpg",
+        We = n.p + "../static/media/something.jpg",
         Ve = () => (0, Ae.jsx)(Ae.Fragment, {
             children: (0, Ae.jsxs)("main", {
                 className: "main1",
