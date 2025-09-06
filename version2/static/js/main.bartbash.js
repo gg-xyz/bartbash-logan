@@ -12426,7 +12426,7 @@
     const ze = n.p + "static/media/joel2.fa8e4dd54bdc219a8f27.png"
       , Le = n.p + "static/media/bartheader.b035e7afe73b19c1912e.png"
       , Oe = n.p + "static/media/demobutton.69b9b169cfb52860ed03.png"
-      , Re = n.p + "../version2/static/media/telestop.png";
+      , Re = n.p + "./version2/static/media/telestop.png";
     var Ae = n(414);
     const De = () => {
         const [e,t] = (0,
@@ -13093,7 +13093,7 @@
             })]
         })]
     })
-      , We = n.p + "../version2/static/media/something.jpg"
+      , We = n.p + "./version2/static/media/something.jpg"
       , Ve = () => (0,
     Ae.jsx)(Ae.Fragment, {
         children: (0,
