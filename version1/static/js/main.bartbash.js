@@ -10420,7 +10420,7 @@
             children: (0, Ae.jsxs)("main", {
                 className: "main1",
                 children: [(0, Ae.jsx)(_e, {
-                    to: "/",
+                    to: "/index.html",
                     children: (0, Ae.jsx)("img", {
                         src: We,
                         className: "bart",
@@ -10439,7 +10439,7 @@
                         children: "Something is coming"
                     }), (0, Ae.jsx)("p", {
                         children: (0, Ae.jsx)(_e, {
-                            to: "/",
+                            to: "/index.html",
                             style: {
                                 color: "#2c5aa0",
                                 fontWeight: "bold"
