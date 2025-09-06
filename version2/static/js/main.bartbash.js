@@ -13173,7 +13173,7 @@
                         color: "#90c4e2",
                         marginTop: "20px"
                     },
-                    children: "Sooon."
+                    children: "Sooon. (This website is not affiliated with Telestop officially. this is a fan archive, made by hazy and tem. contact us at realhazy on discord)"
                 })]
             })]
         })
