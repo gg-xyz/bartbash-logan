@@ -13101,7 +13101,7 @@
             className: "main1",
             children: [(0,
             Ae.jsx)(_e, {
-                to: "/",
+                to: "/index.html",
                 children: (0,
                 Ae.jsx)("img", {
                     src: We,
@@ -13127,7 +13127,7 @@
                 Ae.jsx)("p", {
                     children: (0,
                     Ae.jsx)(_e, {
-                        to: "/",
+                        to: "/index.html",
                         style: {
                             color: "#2c5aa0",
                             fontWeight: "bold"
