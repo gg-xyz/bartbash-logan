@@ -13101,7 +13101,7 @@
             className: "main1",
             children: [(0,
             Ae.jsx)(_e, {
-                to: "/index.html",
+                to: "https://bartbash-logan.vercel.app/",
                 children: (0,
                 Ae.jsx)("img", {
                     src: We,
@@ -13127,7 +13127,7 @@
                 Ae.jsx)("p", {
                     children: (0,
                     Ae.jsx)(_e, {
-                        to: "/index.html",
+                        to: "https://bartbash-logan.vercel.app/",
                         style: {
                             color: "#2c5aa0",
                             fontWeight: "bold"
